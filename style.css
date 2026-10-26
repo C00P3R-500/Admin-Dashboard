@@ -5,7 +5,7 @@ body {
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
     min-height: 100vh;
 }
@@ -80,7 +80,7 @@ body {
 
 .content-container {
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 4fr 1fr;
     gap: 20px;
     background-color: #e2e8f0;
     padding-top: 10px;
@@ -119,8 +119,8 @@ body {
 }
 
 .s-profile-pic {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .s-name {
@@ -195,8 +195,78 @@ body {
     margin-right: 20px;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-right: 30px;
+}
 
-/**{
+.column-heading {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.Announcments-container {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.Announcement-text {
+    margin: 10px 20px 0 20px;
+}
+
+.Announcement-heading {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.Announcement-body {
+    font-size: 8px;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgb(136, 135, 135);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.Trending-container {
+    display: flex;
+    flex-direction: column;
+    height: 218px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.trend-item {
+    display: flex;
+    margin: 20px 20px 0 20px;
+    gap: 10px;
+}
+
+.trend-tag{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.trend-name {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+/*{
     border: 2px solid red;
 }*/
 
